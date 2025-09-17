@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align to the top for better content flow */
+    min-height: 100vh;
+    margin: 20px; /* Add some margin around the container */
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #333;
+}
+
+#course-input label, #course-input input, #course-input select, #course-input button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+#course-input input, #course-input select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#courses li {
+    background-color: #e9ecef;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#gpa-display {
+    font-weight: bold;
+    color: #28a745;
+}
